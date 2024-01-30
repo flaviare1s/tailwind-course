@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tailwind.css">
+    <title>Curso Tailwind</title>
+</head>
+<body>
+    <h1 class="text-center text-2xl font-black pt-5">Flex</h1>
+    <h2>Row:</h2>
+    <div class="flex space-x-4 justify-center bg-gray-300 py-6 mb-4">
+        <div class="p-5 bg-blue-500 w-24 h-24"></div>
+        <div class="p-5 bg-red-500 w-24 h-24"></div>
+        <div class="p-5 bg-green-500 w-24 h-24"></div>    
+    </div>
+    <div class="flex space-x-4 justify-center bg-gray-300 py-6">
+        <div class="p-5 bg-blue-500 w-24 h-24"></div>
+        <div class="p-5 bg-red-500 flex-grow flex-shrink-0 w-24 h-24"></div>
+        <div class="p-5 bg-green-500 w-24 h-24"></div>    
+    </div>
+    
+
+    <br>
+    <h2>Column:</h2>
+    <div class="flex flex-col space-y-2 items-center bg-gray-300 py-6">
+        <div class="p-5 bg-blue-500 w-24"></div>
+        <div class="p-5 bg-red-500 w-24"></div>
+        <div class="p-5 bg-green-500 w-24"></div>    
+    </div>
+</body>
+</html>
